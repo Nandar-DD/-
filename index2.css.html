@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Container to hold the article groups */
+        .article-container {
+            display: flex; /* Use flexbox to arrange items */
+            gap: 20px; /* Add some space between article groups */
+            justify-content: center; /* Center the article groups horizontally */
+        }
+
+        /* Container for each article and its image */
+        .article-group {
+            width: 40%; /* Each article group takes 40% of the container width */
+            position: relative; /* Set the position to relative for positioning children */
+        }
+
+        
+        /* Style for each article */
+        article img {
+            width: 100%; /* Set a fixed width of 100% */
+            height: auto; /* Maintain the aspect ratio */
+            display: block; /* Remove extra space below the image */
+            margin: 0 auto; /* Center the image within its container */
+        }
+
+
+        /* Style for the paragraph within the article */
+        article p {
+            position: absolute;
+            top: 70%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); /* Center the paragraph within the article */
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background */
+            z-index: 1; /* Ensure the paragraph appears above the image */
+        }
+
+        /* Style for the anchor tag */
+        article a {
+            text-decoration: none; /* Remove underlines for the anchor */
+        }
+        @media (max-width: 600px) {
+          .article-container {
+            display: flex;
+            flex-direction: column;
+          }
+
+          .article-group {
+            width: 100%;
+          }
+        }
+    </style>
+    
+ 
+ <title>Two Articles with Images</title>
+ <h2>ကျန်းမာ‌ရေးသည် လာဘ်ကြီးတစ်ပါး</h2>
+ <p>ကျန်းမာပျော်ရွှင်သော ဘဝဆီသို့</p>
+
+
+</head>
+<body>
+  <h1 id="hi">မင်္ဂလာပါ</h1>
+  <div> အောက်ပါအကြောင်း အရာများကို ဤwebsiteတွင် ဖတ်ရှုနိုင်ပါပြီ။</div>
+  
+  <ul>
+    <li>ကျန်းမာ‌ရေး အကြောင်း ဗဟုသုတအဖြာဖြာ</li>
+    <li>အစားအသောက် နှင့် ကျန်းမာ‌ရေး</li>
+    <li>ဆေးဝါးများ အကြောင်း</li>
+    <li>ကိုယ်လက်လှုပ်ရှား လေ့ကျင့်ခန်းများ</li>
+  </ul>
+  <div class="myclass"></div>
+  <input type="date" name="" id="">
+</ul>
+</head>
+<body>
+
+    <div class="article-container">
+        <div class="article-group">
+            <article>
+                <a href="https://index3.css.html">
+                    <img src="https://c8.alamy.com/comp/CNFF93/burmese-cuisine-as-served-at-a-roadside-restaurant-shan-state-burma-CNFF93.jpg" alt="Burmese cuisine">
+                    <h2>နံနက်စာ နှင့် ကျန်းမာရေး</h2>
+                    <p>နံနက်ဆို ဘာမှမစားချင်လို့၊ နံနက်စာစားဖို အချိန်မမီလို့၊ အိပ်ရာထနောက်ကျလို့၊ <br> စတဲ့ စတဲ့ အကြောင်းပြချက်အမျိုးမျိုးနဲ့ နံနက်စာကို ... </p>
+                </a>
+            </article>
+           
+        </div>
+    
+    
+        
+    
+        <div class="article-group">
+            <article>
+                <a href="your_page_url.html">
+                    <img src="https://th.bing.com/th/id/R.816285ba1d7ab91be93eb39843f0b566?rik=73mUE83DRJJZkw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-X-czpEda8Dk%2fUFqcjQyDOEI%2fAAAAAAAAH34%2fWgc7CDi1uUg%2fs1600%2fLina%2bGoldberg%2bBurmese%2bEats.JPG&ehk=4Uvn9FdWWWDuWwl7aqsfQJmVFo9FJi5J5sYYWLPjtDA%3d&risl=&pid=ImgRaw&r=0" alt="Food">
+            
+                <h3>အာဟာရစုံလင်တဲ့နံနက်စာဆိုတာ</h3>
+                <p>နံနက်စာ စားသင့်တဲ့အချိန်ကတော့ အိပ်ရာထပြီး ၂ နာရီအတွင်း ဖြစ်ပါတယ်။ <br> ဒါပေမယ့် အိပ်ရာထချိန်ဟာ...</p>
+                </a>
+            </article>
+        </div>
+    
+        <script>
+            function myFunction() {
+                alert("It will take you to another website!");
+            }
+        </script>    
+    </div>
+
+</body>
+</html>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
